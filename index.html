@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPRESTIMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="apresentacao">
+         <div class="container">
+            
+            <h1 class="titulo-destaque">SIMULADOR DE EMPRESTIMO</h1>
+            <div class="div_tabela">
+                
+            <table>
+             <h3 class="texto_quantidade_parcelas">QUANTIDADE DE PARCELAS: </h3>
+                    <td><input type="number" class="valor_digitado" id="tagTela" name="valor" size="10" value=10></td>
+                    <form>
+                    <select class="classe_parcelas" id="id_select" name="parcelas" required="required">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     </select>
+                    </form>
+                    <br/>
+                 </table>
+
+                 </div>
+                <button class="botao_calcular" onclick="verificarClick()">Calcular</button>
+                <h3 class="texto_valor_maquineta">VALOR QUE VAI PASSAR:</h3>
+                <h2 class="h2-resultado" id="id_resultado">0</h2>
+                <h3 class="texto_valor_parcela">VALOR DAS PARCELAS:</h3>
+                <h2 class="h2-parcelas" id="id_parcelas">0</h2>
+         </div>
+ </main>
+ <img src="pagseguro.png" alt="maquineta">
+<script src="app.js"></script>
+</body>
+</html>
