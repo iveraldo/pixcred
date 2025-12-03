@@ -50,7 +50,7 @@ function verificarClick() {
     console.log(selectParcelas);
   } else if (selectParcelas == 5) {
     let valor = parseInt(valorCliente.value);
-    let juros = valor * 0.14;
+    let juros = valor * 0.15;
     let resultado = valor + juros;
     console.log(resultado);
     tagResultado.innerHTML = "R$ " + parseInt(resultado) + ",00";
@@ -58,7 +58,7 @@ function verificarClick() {
     console.log(selectParcelas);
   } else if (selectParcelas == 4) {
     let valor = parseInt(valorCliente.value);
-    let juros = valor * 0.14;
+    let juros = valor * 0.15;
     let resultado = valor + juros;
     console.log(resultado);
     tagResultado.innerHTML = "R$ " + parseInt(resultado) + ",00";
@@ -74,7 +74,7 @@ function verificarClick() {
     console.log(selectParcelas);
   } else if (selectParcelas == 2) {
     let valor = parseInt(valorCliente.value);
-    let juros = valor * 0.13;
+    let juros = valor * 0.14;
     let resultado = valor + juros;
     console.log(resultado);
     tagResultado.innerHTML = "R$ " + parseInt(resultado) + ",00";
@@ -98,7 +98,7 @@ function verificarClick() {
     console.log(selectParcelas);
   } else if (selectParcelas == 12) {
     let valor = parseInt(valorCliente.value);
-    let juros = valor * 0.17;
+    let juros = valor * 0.17,5;
     let resultado = valor + juros;
     console.log(resultado);
     tagResultado.innerHTML = "R$ " + parseInt(resultado) + ",00";
